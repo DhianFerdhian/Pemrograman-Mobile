@@ -1,0 +1,23 @@
+{
+    "name": "Flutter Campus Feedback",
+    "short_name": "Campus Feedback",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Platform Kuesioner Kepuasan Mahasiswa UIN Sulthan Thaha Saifuddin Jambi",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

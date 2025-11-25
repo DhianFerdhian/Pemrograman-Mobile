@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flutter_campus_feedback</title>
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Flutter initialization -->
+    <script src="flutter.js" defer></script>
+</head>
+<body>
+    <script>
+        window.addEventListener('load', function(ev) {
+            // Download main.dart.js
+            _flutter.loader.loadEntrypoint({
+                serviceWorker: {
+                    serviceWorkerVersion: serviceWorkerVersion,
+                }
+            }).then(function(engineInitializer) {
+                return engineInitializer.initializeEngine();
+            }).then(function(appRunner) {
+                return appRunner.runApp();
+            });
+        });
+    </script>
+    
+    <!-- Flutter app container -->
+    <div id="loading"></div>
+</body>
+</html>
