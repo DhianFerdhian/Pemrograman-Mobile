@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639284933812",
+    "project_id": "catatan-penjualan-b18bf",
+    "storage_bucket": "catatan-penjualan-b18bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639284933812:android:1aecbd25333373df7193e1",
+        "android_client_info": {
+          "package_name": "com.example.catatan_penjualan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCpDU8vUxC2Lzr0h6f8I0mgd1vyRFVdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

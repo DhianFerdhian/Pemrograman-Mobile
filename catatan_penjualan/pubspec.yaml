@@ -1,0 +1,68 @@
+name: catatan_penjualan
+description: Aplikasi Catatan Penjualan
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # FIREBASE
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.1.1
+
+  # STATE MANAGEMENT
+  flutter_riverpod: ^2.6.1
+  provider: ^6.1.1
+
+  # ROUTING
+  go_router: ^17.0.1
+
+  # UI
+  table_calendar: ^3.2.0
+  fl_chart: ^0.66.0
+  intl: ^0.20.2
+
+  # ANIMATIONS
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+  rive: ^0.12.4
+  flutter_staggered_animations: ^1.1.1
+
+  # MEDIA
+  camera: ^0.10.5+9
+  video_player: ^2.8.6
+
+  # PERSISTENCE
+  shared_preferences: ^2.2.2
+
+  # IMAGE HANDLING
+  image_picker: ^1.0.4
+  firebase_storage: ^13.0.5
+
+  # HTTP & FILE HANDLING
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  open_file: ^3.3.2
+  pdf: ^3.10.7
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/image/logo.png"
+  min_sdk_android: 21
